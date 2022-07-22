@@ -1,9 +1,9 @@
 server:
-  port: 8023
+  port: 8022
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/REMOTEDOCTOR
+      uri: mongodb://localhost:27017/RemoteDoctor
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
