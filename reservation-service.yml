@@ -1,5 +1,7 @@
 server:
   port: 8022
+  servlet:
+    contextPath: /reservation
 spring:
   data:
     mongodb:
