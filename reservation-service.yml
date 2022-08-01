@@ -3,7 +3,7 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/REMOTEDOCTOR
+      uri: mongodb://localhost:27017/ReD
   mvc:
     pathmatch:
       matching-strategy: ant-path-matcher
@@ -12,3 +12,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
